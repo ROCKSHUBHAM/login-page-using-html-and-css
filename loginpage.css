@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #ddd;
+
+
+}
+.loginpage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signpage{
+    width: 350px;
+    height: 450px;
+    background-color: #ddd;
+    border: 2px solid #ddd;
+    box-shadow:  6px 6px 8px 2px rgba(0, 0,0,.15),
+                -6px -6px 8px 2px rgba(250, 250, 250,0.5) ;
+    border-radius:10px;
+}
+.sign{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 5px 5px;
+    
+}
+.sign h2{
+    width: 100vw;
+    height: 40px;
+    padding: 5px 0px;
+    text-align: center;
+    margin: 0px 5px;
+    border-radius: 5px;
+    
+    
+
+}
+.sign h2:hover{
+    width: 100vw;
+    height: 40px;
+    padding: 5px 0px;
+    text-align: center;
+    margin: 0px 5px;
+    border-radius: 5px;
+    
+    
+    box-shadow: inset 6px 6px 8px 2px rgba(0, 0,0,.15),
+     inset -6px -6px 8px 2px rgba(250, 250, 250,0.5) ;
+
+}
+#aactive{
+    width: 100vw;
+    height: 40px;
+    padding: 5px 0px;
+    text-align: center;
+    margin: 0px 5px;
+    border-radius: 5px;
+    box-shadow: inset 6px 6px 10px 1px rgba(0, 0,0,.15),inset
+    -6px -6px 10px 1px rgba(250, 250, 250,0.5);
+    
+    
+    
+}
+.sign h2 a{
+    text-decoration: none;
+    color:black;
+   
+}
+.signin{
+    text-align: center;
+
+}
+.signin h3{
+    margin-top:30px;
+}
+.fa.fa-user-circle{
+    font-size: 100px;
+    margin-top: 25px;
+    
+}
+.inputpage{
+    margin-top:30px;
+
+}
+.inputpage input{
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    border: 2px solid #ddd;
+    box-shadow: inset 6px 6px 8px 2px rgba(0, 0,0,.15),
+     inset -6px -6px 8px 2px rgba(250, 250, 250,0.5) ;
+    border-radius:20px;
+    background-color: #ddd;
+}
+.loginpage input:focus{
+    outline: none;
+}
+.btsignin button{
+    width:100%;
+    height: 40px;
+    outline: none;
+    margin:0px auto;
+    background-color:#008CBA;
+    border: #ddd;
+    box-shadow:6px 6px 8px 2px rgba(0, 0,0,.15),
+    -6px -6px 8px 2px rgba(250, 250, 250,0.5) ;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.other{
+    margin:30px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
